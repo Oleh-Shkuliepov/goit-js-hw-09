@@ -24,7 +24,6 @@ function populateForm() {
 form.addEventListener('submit', function (event) {
     event.preventDefault();
        if(formData.email === '' || formData.message === '') {
-           event.preventDefault();
            console.log('Fill please all fields');
        } else {
            console.log(formData);
